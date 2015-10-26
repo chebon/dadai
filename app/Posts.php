@@ -1,11 +1,6 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: dennis
- * Date: 15/11/20
- * Time: 02:45
- */
+<?php namespace App;
 
+use Illuminate\Database\Eloquent\Model;
 
 // instance of Posts class will refer to posts table in database
 class Posts extends Model {
